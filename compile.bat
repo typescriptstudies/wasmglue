@@ -1,0 +1,1 @@
+emcc -o %WASM_BASE_DIR%\glue\glue.html glue.c -O3 -s WASM=1 --shell-file shell_minimal.html
